@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'League Spartan';
+}
+:root {
+    --veryDarkMagenta: hsl(300, 43%, 22%);
+    --softPink: hsl(333, 80%, 67%);
+    --darkGrayishMagenta: hsl(303, 10%, 53%);
+    --lightGrayishMagenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+.generals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8rem 1rem 4rem 1rem;
+}
+.generals h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--veryDarkMagenta);
+    line-height: 3rem;
+}
+.generals p {
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--darkGrayishMagenta);
+    text-align: center;
+    margin: 4rem 0 0 0;
+    line-height: 2.5rem;
+}
+.ratings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ratings-container .rating-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightGrayishMagenta);
+    width: 90vw;
+    height: 7rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: var(--veryDarkMagenta);
+    font-weight: 700;
+}
+.ratings-container .rating-card img {
+    margin: 0 .5rem 1rem 0;
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.testimonial-container .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--veryDarkMagenta);
+    width: 90vw;
+    height: 25rem;
+    margin: 1rem 0;
+    border: none;
+    padding: 3rem;
+    border-radius: .8rem;
+}
+.testimonial-container .testimonial-card .presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.testimonial-container .testimonial-card .presentation img {
+    width: 4rem;
+    border: none;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.testimonial-container .testimonial-card .presentation .personal-info h2 {
+    color: var(--white);
+    margin-bottom: .4rem;
+}
+.testimonial-container .testimonial-card .presentation .personal-info h3 {
+    color: var(--softPink);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.testimonial-container .testimonial-card p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+    line-height: 2rem;
+}
