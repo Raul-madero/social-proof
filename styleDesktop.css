@@ -26,11 +26,72 @@ body {
 main {
     background-image: url(./images/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1200px;
 }
 .rating-generals {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
     margin-left: 8rem;
+}
+.rating-generals .generals {
+    width: 35%;
+}
+.rating-generals .generals h1 {
+    font-size: 5.3rem;
+    text-align: left;
+    line-height: 5rem;
+    width: 40rem;
+    align-self: baseline;
+}
+.rating-generals .generals p {
+    font-size: 2rem;
+    align-self: baseline;
+    text-align: left;
+}
+.rating-generals .ratings-container {
+    width: 65%;
+    margin: 4rem 1rem 1rem 10rem;
+}
+.rating-generals .ratings-container .rating-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: fit-content;
+    min-height: 7rem;
+    padding-left: 1.6rem;
+}
+.rating-generals .ratings-container .rating-card .rating-stars {
+    width: 16rem;
+}
+.rating-generals .ratings-container .rating-card p {
+    width: 100%
+}
+.rating-generals .ratings-container .review {
+    margin-left: 0;
+}
+.rating-generals .ratings-container .guru {
+    margin-left: 8rem;
+}
+.rating-generals .ratings-container .bestTech {
+    margin-left: 16rem;
+}
+.testimonial-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+}
+.testimonial-container .testimonial-card {
+    width: 28%;
+}
+.testimonial-container .irene {
+    margin-top: 4rem;
+}
+.testimonial-container .anne {
+    margin-top: 8rem;
 }
